@@ -1,0 +1,32 @@
+.buttoncontainer {
+    display: flex;
+    justify-content: end;
+    grid-column: 1/-1;
+    align-items: center;
+     /* height: 3.906vh; */
+   }
+   .buttons{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+   }
+   .salarydetails_addbutton {
+    border:none;
+    width: 118px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #009dff;
+    color: white;
+    padding: 7px;
+    cursor:pointer;
+    
+    
+  }
+  
+  .addnewbuttone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  

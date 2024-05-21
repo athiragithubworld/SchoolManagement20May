@@ -1,0 +1,181 @@
+.feesRecieptContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: -2px 3px 18px 0px #00000033 inset; */
+  /* box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2); */
+  border-radius: 25.91px;
+  background-color: #ffffff;
+  padding: 29.05px;
+  /* column-gap: 20.73px; */
+  gap: 12.73px;
+  /* width: 564.86px; */
+}
+
+.feeHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.18px;
+}
+
+.feeHeading > div {
+  font-weight: 500;
+  font-size: 26.67px;
+  line-height: 30px;
+}
+
+.feeHeading span {
+  /* font-weight: 400; */
+  font-size: 15.91px;
+  line-height: 21.64px;
+}
+
+.barcodeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(196, 196, 196, 1);
+  /* box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2); */
+  border-radius: 20.91px;
+  padding: 12.96px;
+}
+
+.challanNo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200.31px;
+  gap: 2.48px;
+  /* padding: 12.96px; */
+  /* margin: 12.96px; */
+}
+
+.challanNo label {
+  font-size: 15.73px;
+  font-weight: 700;
+  line-height: 18.74px;
+}
+.challanNo p {
+  font-size: 12.73px;
+  font-weight: 400;
+  line-height: 18.74px;
+}
+
+.qrCodeImg {
+  width: 150px;
+  height: 43.28px;
+  /* margin: 12.96px; */
+}
+
+.employeeDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.36px;
+  /* width: 100%; */
+  width: 320.86px;
+  font-size: 12.73px;
+}
+
+.employeeDetails h6 {
+  font-weight: bold;
+}
+.StudentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.36px;
+  width: 100%;
+  /* width: 364.86px; */
+  font-size: 12.73px;
+}
+
+.StudentDetails h6 {
+  font-weight: bold;
+}
+
+.feeAmountDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* gap: 18.14px; */
+  border-radius: 20.91px;
+  padding: 20.73px;
+  width: 100%;
+  /* box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2); */
+  border: 1px solid rgba(196, 196, 196, 1);
+  font-size: 10.73px;
+}
+
+.feeStructureTableContainer {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20.73px; */
+  /* padding: 20.73px; */
+}
+
+.feeStructureTableContainer table {
+  border-collapse: collapse;
+  /* border-spacing: 0 10px; */
+  width: 100%;
+}
+
+.feeStructureTableContainer th,
+.feeStructureTableContainer td {
+  padding: 3px 0; /* Adjust spacing as needed */
+}
+
+.feeStructureTableContainer th:first-child,
+.feeStructureTableContainer td:first-child {
+  text-align: left;
+}
+
+.feeStructureTableContainer th:last-child,
+.feeStructureTableContainer td:last-child {
+  text-align: right;
+}
+
+/* .feeStructureTableContainer thead th:nth-child(1) {
+  text-align: left;
+}
+.feeStructureTableContainer thead th:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+} */
+
+.totalrow {
+  border-top: 1.3px solid #afafaf;
+}
+
+/* EmployeePayrollSlip Table */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.gridItem {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* margin-bottom: 20px; */
+  gap: 21.33px;
+}
+
+.gridItem table tbody {
+  display: grid;
+  gap: 21.33px;
+}
+
+.gridItem table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridItem h3 {
+  font-weight: bold;
+}

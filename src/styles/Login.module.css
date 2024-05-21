@@ -1,0 +1,21 @@
+.horizontalslider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slidercontainer {
+    display: flex;
+    transition: transform 0.5s ease; /* Use CSS transition for smooth sliding */
+}
+
+.slideitem {
+    min-width: 100%; /* Ensure each component fills the container width */
+    flex-shrink: 0; /* Prevent components from shrinking */
+}
+
+html, body {
+    overflow: hidden; /* This hides scroll bars */
+    height: 100%; /* Ensure body takes up full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}

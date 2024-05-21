@@ -1,0 +1,154 @@
+.popup {
+  /* width: 41.451vw; */
+  /* height: 79.351vh; */
+  padding: 44.05px;
+  /* margin-top:319.08px; */
+  /* margin-left:100px; */
+  border-radius: 25.91px;
+  display: flex;
+  flex-direction: column;
+  gap: 20.73px;
+  /* box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2); */
+  background-color: white;
+}
+.container {
+  /* width:46.786vw; */
+  /* height:2.085vh; */
+  display: flex;
+  justify-content: space-between;
+  gap: 31.09px;
+  font-weight: bold;
+}
+.title {
+  /* width: 34.232vw; */
+}
+.no {
+  width: 10.908vw;
+  text-align: right;
+}
+.Frame {
+  /* width:883.56px; */
+  /* height:49.767vw; */
+  display: flex;
+  flex-direction: column;
+  gap: 20.73px;
+}
+.frame {
+  /* width:883.56px; */
+  /* height: 336.34px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20.73px;
+}
+.campaign {
+  /* width:883.56px; */
+  /* height:116.1px; */
+  display: flex;
+  gap: 20.73px;
+  flex-direction: column;
+}
+.campaign input {
+  width: 15vw;
+  /* height: 67.37px; */
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+  border: none;
+  outline: none;
+  border-radius: 18.14px;
+  border: 1.3px solid #ccc;
+  padding: 12.96px;
+  display: flex;
+  gap: 12.96px;
+  /* text-align: left;    */
+}
+.campaign input::placeholder {
+  /* width:16.597vw; */
+  text-align: center;
+}
+.Message {
+  /* width:878.38px;
+    height: 89.39px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20.73px;
+}
+.two {
+  display: flex;
+  gap: 31.09px;
+}
+.box {
+  display: flex;
+  gap: 5.18px;
+}
+.to {
+  /* width:47.083vw;
+    height: 6.738vw; */
+  display: flex;
+  flex-direction: column;
+  gap: 20.73px;
+}
+.third {
+  display: flex;
+  gap: 20.73px;
+}
+.check {
+  display: flex;
+  gap: 6.48px;
+}
+.segmented {
+  height: 200px;
+  width: 701px;
+  border-radius: 15.55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20.73px;
+  background-color: #f0f5ff;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+  margin-top: 20px; /* Adjusted margin top */
+  border-radius: 18.14px;
+  display: flex;
+  align-items: center;
+}
+
+.emoji,
+.attach {
+  width: 31.09px;
+  cursor: pointer;
+}
+
+.attach {
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.send {
+  width: 100px;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #009dff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* To style the input */
+.bar input[type="text"] {
+  flex: 1; /* Take remaining space */
+  margin-right: 10px; /* Adjusted margin right */
+  padding: 8px; /* Adjusted padding */
+  border: none;
+  background-color: #f0f5ff;
+  outline: none;
+  font-size: 16px; /* Adjusted font size */
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.text {
+  margin-top: 10px; /* Adjusted margin top */
+  padding: 10px; /* Adjusted padding */
+  word-wrap: break-word;
+}

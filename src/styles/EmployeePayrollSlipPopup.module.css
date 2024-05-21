@@ -1,0 +1,379 @@
+/* .parentContainer{
+  width: 637.33px;
+height: 1028px;
+top: 169.33px;
+left: 641.33px;
+padding: 50px 28px 48.67px 28px;
+gap: 0px;
+
+}
+
+.feesRecieptContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 29.05px;
+  width: 581.33px;
+height: 929.33px;
+top: 50px;
+left: 28px;
+gap: 32px;
+
+}
+
+.feeHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.33px;
+}
+
+.feeHeading > div {
+  font-weight: 500;
+  font-size: 26.67px;
+  line-height: 30px;
+}
+
+.feeHeading span {
+  font-family: SF Pro Display;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 22.28px;
+text-align: left;
+
+ 
+}
+
+.barcodeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20.91px;
+  padding: 12.96px;
+}
+
+.challanNo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200.31px;
+  gap: 2.48px;
+ 
+}
+
+.challanNo label {
+  font-size: 15.73px;
+  font-weight: 700;
+  line-height: 18.74px;
+}
+.challanNo p {
+  font-size: 12.73px;
+  font-weight: 400;
+  line-height: 18.74px;
+}
+
+.qrCodeImg {
+  width: 150px;
+  height: 43.28px;
+}
+
+.employeeDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10.67px;
+  width: 100%;
+  font-size: 21.33px;
+  font-weight: 400;
+
+}
+
+.employeeDetails h6 {
+  font-weight: 500;
+}
+.StudentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10.67px;
+  width: 100%;
+  font-size: 21.33px;
+  font-weight: 400;
+}
+
+.StudentDetails h6 {
+  font-weight: 500;
+}
+
+.feeAmountDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 26.67px;
+  padding: 21.33px;
+  gap: 18.67px;
+  width: 100%;
+  box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2);
+}
+
+.feeStructureTableContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 18.67px;
+  padding: 21.33px;
+}
+
+.feeStructureTableContainer table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.feeStructureTableContainer th,
+.feeStructureTableContainer td {
+  padding: 3px 0; 
+}
+
+.feeStructureTableContainer th:first-child,
+.feeStructureTableContainer td:first-child {
+  text-align: left;
+}
+
+.feeStructureTableContainer th:last-child,
+.feeStructureTableContainer td:last-child {
+  text-align: right;
+}
+
+
+
+.totalrow {
+  border-top: 1.3px solid #afafaf;
+}
+
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 21.33px;
+}
+
+.gridItem > h3 {
+font-family: SF Pro Display;
+font-size: 21.33px;
+font-weight: 500;
+line-height: 25.46px;
+text-align: left;
+
+}
+
+.gridItem table tbody {
+  display: grid;
+  gap: 21.33px;
+  font-family: SF Pro Display;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 22.28px;
+text-align: left;
+
+}
+
+.gridItem table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridItem h3 {
+  font-weight: bold;
+}
+
+.totalContainer {
+  border-top: 1.3px solid #afafaf;
+  gap: 21.33px;
+}
+
+.itemName{
+  width: 90px;
+} */
+
+
+
+/* Original */
+
+
+.feesRecieptContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2); */
+  /* border: 1px solid rgba(196, 196, 196, 1); */
+  background-color: #ffffff;
+  padding: 29.05px;
+  gap: 12.73px;
+}
+
+.feeHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.18px;
+}
+
+.feeHeading > div {
+  font-weight: 500;
+  font-size: 26.67px;
+  line-height: 30px;
+}
+
+.feeHeading span {
+  font-size: 15.91px;
+  line-height: 21.64px;
+}
+
+.barcodeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(196, 196, 196, 1);
+  /* box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2); */
+  border-radius: 20.91px;
+  padding: 12.96px;
+}
+
+.challanNo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200.31px;
+  gap: 2.48px;
+ 
+}
+
+.challanNo label {
+  font-size: 15.73px;
+  font-weight: 700;
+  line-height: 18.74px;
+}
+.challanNo p {
+  font-size: 12.73px;
+  font-weight: 400;
+  line-height: 18.74px;
+}
+
+.qrCodeImg {
+  width: 150px;
+  height: 43.28px;
+}
+
+.employeeDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.36px;
+  width: 100%;
+  font-size: 12.73px;
+}
+
+.employeeDetails h6 {
+  font-weight: bold;
+}
+.StudentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.36px;
+  width: 100%;
+  font-size: 12.73px;
+}
+
+.StudentDetails h6 {
+  font-weight: bold;
+}
+
+.feeAmountDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20.91px;
+  padding: 20.73px;
+  width: 100%;
+  border: 1px solid rgba(196, 196, 196, 1);
+  /* box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.2); */
+  font-size: 10.73px;
+}
+
+.feeStructureTableContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 18.67px;
+  padding: 21.33px;
+}
+
+.feeStructureTableContainer table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.feeStructureTableContainer th,
+.feeStructureTableContainer td {
+  padding: 3px 0; 
+}
+
+.feeStructureTableContainer th:first-child,
+.feeStructureTableContainer td:first-child {
+  text-align: left;
+}
+
+.feeStructureTableContainer th:last-child,
+.feeStructureTableContainer td:last-child {
+  text-align: right;
+}
+
+
+
+.totalrow {
+  border-top: 1.3px solid #afafaf;
+}
+
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 21.33px;
+}
+
+.gridItem table tbody {
+  display: grid;
+  gap: 21.33px;
+}
+
+.gridItem table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridItem h3 {
+  font-weight: bold;
+}
+
+.totalContainer {
+  border-top: 1.3px solid #afafaf;
+  gap: 21.33px;
+}
+
+.itemName{
+  width: 90px;
+}

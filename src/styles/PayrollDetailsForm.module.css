@@ -1,0 +1,106 @@
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  width: -webkit-fill-available;
+  /* width: 77.5vw; */
+  /* height: 36.634vh; */
+  box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  background-color: white;
+  /* margin-top: 16px; */
+}
+
+.formWrapper form .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.formWrapper form .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main {
+  display: flex;
+  /* flex-direction: row; */
+  gap: 3%;
+  justify-content: space-between;
+}
+.new form .left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.labelInputWrapper {
+  /* height: 5.078vh;
+  width: 35.764vw; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.labelInputWrapper label {
+  display: flex;
+  /* height: 2.148vh;
+  width: 10.472vw; */
+  font-size: 2.1vh;
+  font-weight: 400;
+}
+.left input {
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  /* height: 3.516vh;
+  width: 24.306vw; */
+  border-radius: 14px;
+  padding: 1.563% 1.111%;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.right input {
+  /* height: 3.516vh;
+  width: 24.306vw; */
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  padding: 1.563% 1.111%;
+}
+.new form .right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.parentbutton {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.submitbutton {
+  align-self: center;
+  /* width: 11.806vw;
+  height: 3.906vh; */
+  padding: 5px;
+  background-color: #009dff;
+  color: white;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}

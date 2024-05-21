@@ -1,0 +1,159 @@
+.btn {
+  margin-top: 1%;
+  width: 77.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.f {
+  display: flex;
+  width: 24.167vw;
+  gap: 0.556vw;
+}
+/* select class*/
+.customSelect {
+  position: relative;
+  margin-top: 0.5%;
+  font-size: 14px;
+  /* margin-right: 5px; */
+}
+/* .selectContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #009dfd;
+  color: white;
+  border-radius: 14px;
+  padding: 10px;
+  width: 7.5vw;
+} */
+.selectedOption {
+  flex: 1;
+  /* width: 4vw; */
+  text-align: left;
+  padding-left: 2%;
+}
+.dropdownIcon {
+  margin-left: 8px;
+}
+.down {
+  align-items: center;
+  font-weight: 200;
+  margin-top: 5px;
+  right: 0;
+  justify-content: center;
+  cursor: pointer;
+}
+/* for dropdown*/
+.optionsContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #009dfd;
+  border: 1px solid #ccc;
+  border-radius: 14px 14px 14px 14px;
+  border-top: none;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  max-height: 230px;
+  width: 8.5vw;
+  z-index: 1;
+}
+.option {
+  padding: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #009dfd;
+  color: white;
+}
+/*select section */
+.bttn {
+  padding: 0.5%;
+}
+.selectContainers {
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #009dfd;
+  color: white;
+  border-radius: 14px;
+  color: rgb(255, 255, 255);
+  width: 7.986vw;
+  height: 5.906vh;
+  padding: 0.781vh 0.556vw;
+  gap: 0.278vw;
+  margin-left: 0.556vw;
+  display: flex;
+  justify-content: center;
+}
+.optionsContainers {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #009dfd;
+  border: 1px solid #ccc;
+  border-radius: 14px 14px 14px 14px;
+  border-top: none;
+  z-index: 1;
+}
+/* start date*/
+.Btn {
+  margin-top: 1%;
+  margin-right: 1%;
+  display: inline-block;
+  position: relative;
+}
+.Btn input {
+  width: 7.5vw; /*Adjust width as needed */
+  /* height: 21px; Adjust height as needed */
+  border-radius: 14px; /* Rounded corners */
+  font-size: 18px; /* Set font size */
+  padding: 12px; /* Adjust padding */
+  border: 1px solid #ccc; /* Border color */
+  outline: none; /* Remove outline */
+  background-color: #009dfd;
+  position: relative;
+  cursor: pointer;
+}
+.Btn input::placeholder {
+  color: white; /* Set placeholder color to white */
+  /* display: flex;
+    align-items: center; */
+}
+.Btns .button {
+  padding: 12px;
+  width: 9.5vw;
+  margin-top: 3%;
+  font-size: 100%;
+  cursor: pointer;
+  background-color: #009dfd;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.faculty_classbutton {
+  /* width: 50px;
+    height: 40px; */
+  border-radius: 9px;
+  background-color: white;
+  margin-left: 8px;
+  /* margin-top: 18px;
+  margin-bottom: 18px; */
+  color: #716c6c;
+  padding: 0.521vh 0.37vw;
+  box-shadow: 7px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  /* margin-right: 666px; */
+  border: none;
+}
+.feelistRight {
+  display: flex;
+  gap: 0.55vw;
+  justify-content: center;
+  align-items: center;
+}

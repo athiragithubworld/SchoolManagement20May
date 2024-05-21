@@ -1,0 +1,172 @@
+.popup{
+     padding: 34.06px;
+    /* margin-top:319.08px; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:25.1px;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+}
+.heading{
+    /* width:61.266vw; */
+    height:2.111vh;
+    display: flex;
+    gap:12.96px;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
+.main{
+    /* width:61.266vw; */
+    /* height: 35.246vh; */
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.foot{
+    /* width:20.422vw; */
+    /* height:3.908vh ; */
+    display: flex;
+    gap:22.03px;
+    justify-content: center;
+}
+.top{
+ /* width:100% ; */
+ /* height:18.364vh ; */
+ display: flex;
+ flex-direction: column;
+ gap:24px;
+}
+.top input{
+    width:250px;
+    height: 52px;
+    /* height: 5.08vh; */
+    box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    padding: 20.73px;
+    display: flex;
+    gap:12.96px;
+}
+.middle{
+/* width: 61.266vw; */
+/* height: 5.784vh; */
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+gap:10.73px;
+}
+.last{
+/* width: 61.266vw; */
+/* height: 7.581vh; */
+display: flex;
+flex-direction: column;
+gap: 10.73px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.first{
+    /* width:60.85vw ; */
+    /* height: 5.08vh; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.left{
+    /* width:29.105vw ; */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left label{
+    /* width:7.558vw; */
+}
+.right{
+    /* width:30.077vh ; */
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.right label{
+    /* width:8.405vw; */
+}
+.one{
+    /* height: 2.111vh; */
+    font-size: medium;
+    font-weight: bold;
+}
+.two{
+    display: flex;
+    gap:20.73px;
+}
+.check{
+    display: flex;
+    gap:10.37px;
+    align-items: center;
+}
+.box{
+    display:flex;
+    gap:5.18px;
+}
+.third{
+    display: flex;
+    gap:31.1px;
+}
+.print{
+    display: flex;
+    width: 138px;
+    /* height: 3.908vh; */
+    border-radius: 14px;
+    border:1.3px solid #ccc;
+    justify-content: center;
+    padding: 10.37px;
+    gap:12.96px;
+    align-items: center;
+    cursor: pointer;
+}
+.collect{
+    display: flex;
+    /* width: 9.655vw; */
+    width: 139px;
+    /* height: 3.908vh; */
+    padding: 10.37px;
+    gap:12.96px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    background-color: #009dff;
+    color:white;
+    cursor: pointer;
+}  
+  /* Styling the checkbox */
+  .checkbox {
+    appearance: none;
+    border: 2px solid #009DFF; 
+    padding: 4px; 
+    width: 1vw;
+    height:2.4vh;
+    border-radius: 2px;
+    position: relative;
+  }
+    
+  /* Styling the tick icon */
+  .icon {
+    margin-left: -28px; /* Adjust margin as needed */
+    display: none;
+  }
+  .checkbox:checked + .icon {
+    background-color: #009dff;
+    color: white;
+    width: 1.2vw;
+    height: 2.4vh;
+    display: inline-block;    
+    border-radius: 2px;
+  } 

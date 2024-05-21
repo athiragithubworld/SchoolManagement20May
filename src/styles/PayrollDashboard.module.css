@@ -1,0 +1,6 @@
+.salarydashboardgrid{
+  width: 100%;
+  display: grid;
+  grid-template-rows: .5fr 5fr;
+  column-gap: 1rem;
+}

@@ -1,0 +1,49 @@
+.buttoncontainer {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.timetable_classbutton {
+  width: 108px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #009dff;
+  margin-left: 4px;
+ 
+  color: white;
+  padding: 8px;
+ 
+}
+
+.faculty_classbutton {
+  
+  border-radius: 9px;
+  background-color: white;
+  margin-left: 8px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #716c6c;
+  padding: 7px;
+  box-shadow: 7px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  
+}
+.faculty_sharebutton {
+  
+  
+  /* width: 108px; */
+  height: 40px;
+  border-radius: 12px;
+  background-color: #009dff;
+  /* margin-left: 8px; */
+  /* margin-top: 18px; */
+  /* margin-bottom: 18px; */
+  color: white;
+  padding: 6px;
+}
+
+.buttoncontainer span {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}

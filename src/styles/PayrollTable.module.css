@@ -1,0 +1,83 @@
+.container {
+  max-width: 100rem;
+  max-height: 50rem;
+  padding: 16px;
+
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 65vh;
+  /* overflow: hidden; */
+   overflow-y: scroll;
+    scrollbar-width: thin;
+  scrollbar-color: #0197f9 #e7e7e7;
+  margin-top: 2.5%;
+  /* z-index: -1; */
+ 
+  
+}
+
+.scrolldata{
+  max-width: 100rem;
+  max-height: 50rem;
+  padding: 10px;
+  height: 600px;
+/* background-color: white; */
+  
+}
+
+
+/* Row height 52 pixels, Corner radius 14 px */
+.salaryDetails_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px ;
+  letter-spacing: 0.4px;
+
+}
+
+.arrowLength{
+font-size: 1.2rem;
+padding: 1px;
+text-align: center;
+align-self: center;
+}
+
+.salaryDetails_table thead {
+  /* padding: 2px 20px; */
+  text-align: center;
+  height: 52px;
+  border-radius: 14px;
+  background-color: #e2ebfd;
+  /* border: 1px solid blue; */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  box-shadow: 1px 5px 6px 2px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top:1%
+}
+
+.salaryDetails_table tbody td  {
+  padding: 2px 20px;
+  text-align: center;
+  
+  /* box-shadow: 1px 5px 6px 2px rgba(0, 0, 0, 0.1); */
+ 
+}
+
+.salaryDetails_table th:first-child {
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+.salaryDetails_table th:last-child {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.salaryDetails_table tbody tr {
+  height: 52px;
+  box-shadow: 1px 5px 6px 2px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  border-radius: 14px;
+  
+  
+}
+

@@ -1,0 +1,6 @@
+.salarydashboardgrid{
+  display: grid;
+  grid-template-rows: .5fr 5fr;
+  column-gap: 1rem;
+  height: calc(100vh - 6rem);
+}

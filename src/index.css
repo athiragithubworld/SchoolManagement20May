@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style:normal;
+}
+
+*{
+  box-sizing:  border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+body{
+  
+font-family: "SF Pro Text";
+border: none;
+
+
+}
+
+input ,select {
+  border: none;
+  outline: none;
+  color: #3A3A3A;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+::-webkit-scrollbar-track-piece {
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background: #009DFF;
+  border: solid 1px transparent;
+  border-radius: 4px;
+}
+
+.scrollbarnone{
+  scrollbar-width: none;
+}
+
+/* ---------------------------- */
+.table-inner-shadow{
+  box-shadow: -2px 3px 18px 0px rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.blue-button-color{
+  background: rgba(0, 157, 255, 1);
+}
+
+/* .table-scrollbar{
+  scrollbar-width: thin;
+  scrollbar-color: #0197f9 #e7e7e7;
+  scroll-behavior: smooth;
+} */
+
+
+
+

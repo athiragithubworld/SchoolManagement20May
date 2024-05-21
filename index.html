@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/> -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet"/> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- <title>School Name</title> -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    
+    <script type="module">
+      
+       // Get the URL of the current page
+    const url = new URL(window.location.href);
+
+    // Get the pathname from the URL
+    const pathname = url.pathname;
+
+     const navHeadings = {
+    "/dashboard": "Dashboard",
+    //Attendance
+    "/studentAttendance": "Student Attendance", // Get the corresponding heading based on the path
+    "/attendanceRegister": "Attendance Register",
+    "/attendanceSummary": "Attendance Summary",
+    //Payroll
+    "/payroll": "List of Payroll",
+    "/newBank": "Payroll Payments",
+    "/payOuts": "Payroll Payments",
+    //Fee Management
+    "/studentFeeList": "Student Fee",
+    "/feeConfiguration": "Student Fee",
+    "/student/studentList": "Student List",
+    //Timetable
+    "/viewtimetable": "Timetable",
+    "/addtimetable": "Timetable",
+    "/updatetimetable": "Timetable",
+    //Admission
+    "/admission": "Enrollment Info",
+    //Class Management
+    "/classmanagementdasboard": "Class Management",
+    "/createClass": "Class Management",
+    //HRMS
+    "/employeeattendance": "Employee Attendance",
+    "/leavemanagement": "Leave Management",
+    "/employeeList" :"Employee List"
+  };
+
+    // Function to set the title based on the pathname
+    const setTitle = (pathname) => {
+      // Define a default title
+      let title = "School Name";
+
+      // Check if the pathname matches a specific route and set title accordingly
+      if (pathname === navHeadings.key ) {
+        title = "Timetable";
+      } else if (pathname === '/addtimetable') {
+        title = navHeadings.key;
+      } 
+      //  else if (pathname === '/updatetimetable') {
+      //   title = "Update Timetable";
+      // }
+      //  else if (pathname === '/markregister') {
+      //   title = "Mark Register";
+      // } 
+      // else if (pathname === '/salarydetails') {
+      //   title = "Salary Details";
+      // } 
+      
+
+      // Set the document title
+      document.title = title;
+    };
+
+    // Call the setTitle function with the extracted pathname
+    setTitle(pathname);
+    </script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+  </body>
+</html>

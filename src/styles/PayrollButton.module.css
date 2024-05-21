@@ -1,0 +1,46 @@
+.buttoncontainer {
+  /* margin-left: 75%; */
+  /* height: 3.906vh; */
+   grid-column: 1/-1;
+  display: flex;
+
+  justify-content:space-between;
+}
+
+.salarydetails_rightbutton {
+ 
+  border:none;
+  border-radius: 12px;
+  background-color: white;
+  margin-left: 8px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #333232;
+  padding: 7px;
+  box-shadow: 7px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+.salarydetails_addbutton {
+ 
+  border:none;
+  width: 118px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #009dff;
+  margin-left: 8px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: white;
+  padding: 7px;
+  cursor:pointer;
+  
+  
+}
+
+.addnewbuttone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

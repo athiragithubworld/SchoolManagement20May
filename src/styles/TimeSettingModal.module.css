@@ -1,0 +1,97 @@
+.container h3 {
+  text-align: start;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+
+  width: 550px;
+  /* border: 1px solid black; */
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background-color: white;
+}
+.settingname {
+  font-size: 14px;
+  font-weight: bold;
+  /* width: 150px; */
+  display: inline-block;
+  flex-basis: 150px;
+
+  /* text-align: center; */
+}
+
+.container select {
+  margin-right: 50px;
+}
+
+
+.schooltime {
+  padding: 20px;
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+}
+
+.to_label {
+  text-align: center;
+
+}
+
+.classduration {
+  padding: 20px;
+  display: flex;
+  /* margin:0 auto ; */
+  /* width: 132.28px; */
+  /*  gap: 35px; */
+  /* justify-content: space-between; */
+  align-items: center;
+  
+  
+}
+
+.classduration > label {
+  width: 132.28px;
+}
+
+.parentbutton {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  /* padding: 10px; */
+}
+
+.inputTimePicker{
+  box-shadow: 1px 5px 6px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  /* width: 500px; */
+}
+
+.submitbutton {
+  align-self: center;
+  width: 60px;
+  height: 35px;
+  /* margin: 10px; */
+  padding: 5px;
+  background-color: #009dff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}

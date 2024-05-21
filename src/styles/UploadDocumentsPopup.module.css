@@ -1,0 +1,52 @@
+.payrollForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.documents {
+  width: 55vw;
+  height: 25.047vh;
+  display: flex;
+  gap: 1.667vw;
+  justify-content: center;
+}
+.card {
+  width: 12.556vw;
+  height: 23.047vh;
+  border-radius: 20px;
+  border: 1px solid #e9e9e9;
+  padding: 1.172vh 0.833vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .checkInput {
+  height: 2.4vh;
+}
+.image {
+  width: 9.889vw;
+  height: 16.992vh;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.563vh 1.111vw;
+  box-shadow: 2px 2px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.image:hover {
+  cursor: pointer;
+}
+.image span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card p {
+  width: 13.889vw;
+  height: 2.148vh;
+  font-size: 1.758vh;
+  text-align: center;
+  line-height: 21.6px;
+  margin: 1vh;
+}
